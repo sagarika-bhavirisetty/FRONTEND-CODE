@@ -1,0 +1,26 @@
+.testone{
+    background-color: rgb(139, 222, 161);
+    width: 200px;
+    margin-right: 200px;
+    height: 100px;
+   font-style: oblique;
+   font-family:serif;
+   font-size: large;
+   border: 5pc;
+   box-shadow: 10pc;
+  }
+  .test {
+    background-color: rgb(145, 225, 169);
+    width: 200px;
+    margin-left: 300px;
+    height: 100px;
+    font-family:serif;
+   font-size: large;
+   font-style: oblique;
+   border:5pc;
+ }
+ .a{
+  width:500px;
+  height: 400px;
+ }
+ 

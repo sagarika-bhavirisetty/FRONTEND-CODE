@@ -1,0 +1,51 @@
+/* .signin{
+    background-color: aquamarine;
+} */
+
+.check-credentials-form{
+    margin: auto;
+    height: 350px;
+    width: 130%;
+    background-color: rgb(198, 238, 214);
+    box-sizing: 20px;
+    /* background-image: url(https://th.bing.com/th/id/R.9dc03f392b179736b3bced565383b70c?rik=zL4W1VE2Ur7LdQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f67dIBoI.jpg&ehk=WURTfJSFLepJO9RUxsGqcbzxAMATyWwaXEDGUdIPUKQ%3d&risl=&pid=ImgRaw&r=0) ; */
+
+    
+}
+#input[type=text] {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 70%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: content-box;
+  }
+  #email{
+    font-size: 20PX;
+    width: 80%;
+    margin-top: 1px;
+    margin-left: 80px;
+   
+  }
+  #password{
+    width: 80%;
+    margin-top: 1px;
+    margin-left: 80px;
+   
+  }
+  .forgetbutton{
+    
+    text-align: center;
+    margin-left: 100px;
+  }
+  .btnsignin{
+    /* background-color: rgb(122, 217, 176); */
+    margin-left: 100px;
+    background-image: "https://wi.wallpapertip.com/wsimgs/55-559958_amazing-backgrounds-for-school-website.jpg";
+
+  }

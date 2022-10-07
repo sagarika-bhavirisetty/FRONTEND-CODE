@@ -1,0 +1,59 @@
+/* .signin{
+    background-color: aquamarine;
+} */
+.check-credentials-formsp{
+    margin: auto;
+    height: 350px;
+    width: 150%;
+    background-color: rgb(190, 233, 186);
+    /* background-image: url(https://th.bing.com/th/id/R.6186c6086ed10eb0d0d3ef1f649374bf?rik=BGMlYm4lzHo12w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwLT6mhm.jpg&ehk=twa456xgHBvRWhebwH7%2bQB9mr3qfaOHD1KWWa%2blEAUA%3d&risl=&pid=ImgRaw&r=0) ; */
+
+    
+}
+/* #input[type=text] {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 70%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(111, 21, 21);
+    box-sizing: border-box;
+  } */
+  #usernamesp{
+    width: 80%;
+    
+    margin-left: 50px;
+  }
+  #emailsp{
+    width: 80%;
+    
+    margin-left: 50px;
+  }
+  
+   
+  
+  #passwordsp{
+    width: 80%;
+    
+    margin-left: 50px;
+   
+  }
+  #confirmpasswordsp{
+    width: 80%;
+    
+    margin-left: 50px;
+  }
+  #phonesp{
+    width: 80%;
+    
+    margin-left: 50px;
+  }
+  .btnsignup{
+    color : rgba(185, 168, 21, 0.95);
+    margin-left: 100px;
+
+  }
