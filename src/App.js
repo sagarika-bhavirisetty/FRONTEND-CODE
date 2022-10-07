@@ -22,13 +22,14 @@ import CartList from './CartList';
 import Admin from './Admin';
 import Payment from './Payment';
 import StripeCheckout from 'react-stripe-checkout';
+import Logout from './Logout';
 function App() {
   return (
     
     <div className="page-container">
 
       <div className="content-wrap">
-      "
+      
     <Router>
       <Navbar />
       <Routes>
@@ -52,6 +53,7 @@ function App() {
         <Route path='/CartList' element={<CartList/>}/>
         <Route path='/Admin' element={<Admin/>}/>
         <Route path='/Home' element={<Home/>}/>
+        <Route path='/Logout' element={<Logout/>}/>
 
         
 

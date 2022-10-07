@@ -95,7 +95,7 @@ const SignIn = () => {
                     
                 <br></br>
                 
-                 <button type="submit" class="btn btn-outline-secondary my-2  text-center mr-2 " onClick={redirectforgot}>forgot password</button><br></br> 
+                 <button type="submit" class="btn btn-outline-secondary my-2  text-center mr-2 " onClick={redirectforgot}>FORGOT/UPDATE PASSWORD</button><br></br> 
                 
                  </div>
                 

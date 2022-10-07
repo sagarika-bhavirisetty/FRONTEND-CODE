@@ -127,7 +127,7 @@ const SignUp = () => {
                 
                 <div id="emailsp" class="email">
                 <p id="hint"><strong> ENTER EMAIL:</strong></p>
-                    <input type="email" class="form-control" name="email"  placeholder="Enter email" value={email} onChange={(e) => onInputChangeEmail(e)}required  />
+                    <input type="text" class="form-control" name="email"  placeholder="Enter email" value={email} onChange={(e) => onInputChangeEmail(e)}required  />
                 </div>
                 <p className='error'>{formErrors.email}</p>
 

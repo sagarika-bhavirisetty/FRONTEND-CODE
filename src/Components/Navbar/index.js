@@ -71,7 +71,7 @@ const signoutHandler = () => {
 
   localStorage.clear();
 
-  navigate('/')
+  navigate('/Logout')
 
 }
   return (
@@ -85,10 +85,10 @@ const signoutHandler = () => {
         
         <NavMenu>
           <NavLink to='/about' activeStyle>
-            About
+            ABOUT
           </NavLink>
           <NavLink to='/contact' activeStyle>
-            Subscribe
+            CONTACT
           </NavLink>
           {/* <NavLink to='/sign-up' activeStyle>
             Sign Up
@@ -97,9 +97,12 @@ const signoutHandler = () => {
             Sign In
           </NavLink> */}
           
-          { <NavLink to='/' onClick={signoutHandler} activeStyle>
-            Log out
+          { <NavLink to='/sign-up' onClick={signoutHandler} activeStyle>
+            LOGOUT
           </NavLink> }
+          <NavLink to='/Homes' activeStyle>
+           BOOKSTORE
+          </NavLink>
           
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
@@ -117,6 +120,10 @@ const signoutHandler = () => {
         </NavLink>
         
         <NavMenu>
+        <NavLink to='/home' activeStyle>
+            HOME
+          </NavLink>
+
           <NavLink to='/about' activeStyle>
             ABOUT
           </NavLink>
@@ -129,9 +136,9 @@ const signoutHandler = () => {
           <NavLink to='/sign-in' activeStyle>
             SIGN IN
           </NavLink>
-          <NavLink to='/Homes' activeStyle>
+          {/* <NavLink to='/Homes' activeStyle>
            BOOKSTORE
-          </NavLink>
+          </NavLink> */}
           
          
           
